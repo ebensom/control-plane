@@ -1341,7 +1341,6 @@
     "github.com/int128/kubelogin/pkg/adaptors/logger",
     "github.com/kyma-incubator/compass/components/director/pkg/graphql",
     "github.com/kyma-incubator/compass/components/director/pkg/jsonschema",
-    "github.com/kyma-incubator/compass/components/director/pkg/pagination",
     "github.com/kyma-project/control-plane/components/provisioner/pkg/gqlschema",
     "github.com/kyma-project/kyma/components/kyma-operator/pkg/apis/installer/v1alpha1",
     "github.com/lib/pq",

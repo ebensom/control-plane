@@ -6,13 +6,13 @@ global:
       path: eu.gcr.io/kyma-project/control-plane
     schema_migrator:
       dir:
-      version: "PR-207"
+      version: "ef192c0a"
     provisioner:
       dir:
       version: "PR-220"
     kyma_environment_broker:
       dir:
-      version: "PR-236"
+      version: "PR-233"
     kyma_environments_cleanup_job:
       dir:
       version: "PR-131"
@@ -69,6 +69,8 @@ global:
         name: kcp-provisioner-credentials
 
   compass:
+    registration:
+      enabled: true
     tls:
       host: compass-gateway
       secure:
@@ -98,6 +100,8 @@ global:
       brokerDBName: "broker"
     # Values for GCP managed PostgreSQL database
     managedGCP:
+      # secret with a secret key used to encrypt particular data
+      encryptionSecretName: "kcp-storage-client-secret"
       serviceAccountKey: ""
       instanceConnectionName: ""
       provisioner:
