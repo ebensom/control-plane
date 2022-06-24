@@ -11,7 +11,7 @@ require (
 	github.com/Masterminds/semver v1.5.0
 	github.com/Masterminds/sprig v2.22.0+incompatible
 	github.com/Peripli/service-manager v0.23.6
-	github.com/Peripli/service-manager-cli v1.11.14
+	github.com/Peripli/service-manager-cli v1.12.0
 	github.com/dlmiddlecote/sqlstats v1.0.2
 	github.com/gocraft/dbr v0.0.0-20190714181702-8114670a83bd
 	github.com/google/go-github v17.0.0+incompatible
